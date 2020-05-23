@@ -1,3 +1,45 @@
-.title {
-  color: #02ccba;
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+header {
+  height : 70px;
+  width : 100%;
+  position: fixed;
+  top : 0;
+  z-index: 10;
+
+  background-color: rgba(0, 76, 153, 0.7);
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.head-left {
+  padding : 15px;
+  font-size : 35px;
+  color : white;
+  float : left
+}
+
+.head-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  cursor : pointer;
+}
+
+.head-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.head-right a {
+  line-height: 70px;
+  padding: 0px 100px;
+  color: white;
+  display: block;
 }
